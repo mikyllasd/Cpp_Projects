@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int num1, num2, difference;
+    double num1, num2, quotient;
 
     cout << "Enter first number: ";
     cin >> num1;
@@ -10,9 +10,9 @@ int main() {
     cout << "Enter second number: ";
     cin >> num2;
 
-    difference = num1 - num2;
+    quotient = num1 / num2;
 
-    cout << "Difference = " << difference;
+    cout << "Quotient = " << quotient;
 
     return 0;
 }
